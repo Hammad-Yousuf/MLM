@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MLM | Multi Level Marketing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="newest stylesheet" href="./Assets/CSS/Styles.css">
+    <link rel="stylesheet" href="./Assets/CSS/signup.css">
+
+    <style>
+        .about_banner {
+            padding-block: 6em;
+            background: linear-gradient(rgba(15, 25, 50, 0.9), rgba(15, 25, 50, 0.9)), url(./Assets/Images/5fc5ebd6631011606806486.jpg);
+            background-attachment: fixed;
+            background-position: center center;
+        }
+
+        .about_banner_content {
+            text-align: center;
+            color: #fff;
+        }
+
+        .about_banner_head {
+            font-size: 4em;
+        }
+
+        .about_links>a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .about_links>a:hover {
+            color: var(--clr-light-blue);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="sticky-top">
+        <nav class="px-4 navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img class="navbar-brand logo" src="./Assets/Images/logo.png" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Marketing.html">Marketing Tool</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown dropleft">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ACCOUNT
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li class="dropdown_link">
+                                    <a class="dropdown-item p-0 ps-2" href="Login.html">Login</a>
+                                </li>
+                                <li class="dropdown_link"><a class="dropdown-item p-0 ps-2" href="Signup.html">Sign
+                                        Up</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="about_banner">
+        <div class="about_banner_content">
+            <h1 class="about_banner_head">Sign In</h1>
+            <h3 class="about_links"><a href="index.html">Home</a> . Sign In</h3>
+        </div>
+    </section>
+
+    <section class="signup">
+        <div class="container signup-container">
+            <div class="row">
+                <div class="col-md-6 form-img-container">
+
+                    <div class="form-banner-content">
+                        <h4 class="form-banner-head">
+                            Well Come To MLM World
+                        </h4>
+                        <p class="form-banner-text">
+                            Haven't registered yet! don't worry just fillip all the information below and get your
+                            account now.
+                        </p>
+                        <a href="Signup.html">
+                            <button class="btn form-banner-btn">
+                                Sign Up
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 form-container login-form-container">
+                    <h3 class="form-head">Login Account</h3>
+                    <p class="form-text">To login into the site please enter your username and password</p>
+                    <form class="login-form">
+
+                        <input type="text" class="form-control signup-input" placeholder="Enter your username">
+                        <input type="text" class="form-control signup-input" placeholder="Enter your password">
+
+
+                        <div class="form-btn-container d-flex justify-content-between align-items-center">
+                            <a href="Forgot.html" class="form-text text-decoration-none">
+                                Forget Password?
+                            </a>
+                            <button class="btn signup-btn rounded-pill">Create An Account</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="py-5 m-0">
+            <img src="./Assets/Images/logo.png" alt="" class="footer_logo">
+            <p class="footer_text ">
+                We are a worldwide trusted company . This secured website with a user-friendly interface and support of
+                various languages is a breeze to use. Additionally, this site has both desktop and mobile. This secured
+                website with a user-friendly interface and support of various languages is a breeze to use.
+                Additionally,
+                this site has both desktop and mobile.
+            </p>
+            <div class="footer_icons_container">
+                <i class="fab fa-facebook footer_icon"></i>
+                <i class="fab fa-twitter footer_icon"></i>
+                <i class="fab fa-instagram footer_icon"></i>
+                <i class="fab fa-youtube footer_icon"></i>
+                <i class="fab fa-telegram footer_icon"></i>
+            </div>
+        </div>
+    </section>
+    <footer class=" text-center">
+        <p class="copy_text text-white m-0 p-2">
+            Copyright © 2021. All Rights Reserved
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</body>
+
+</html>
