@@ -1,0 +1,43 @@
+.marketing_tools_container{
+    padding: 3em;
+    background: var(--clr-bg);
+}
+.marketing_card{
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    transition: 250ms ease-in-out;
+    margin-block: 1em;
+}
+
+.marketing_card_head{
+    color: var(--clr-blue);
+    margin-bottom: 1em;
+}
+.marketing_card_head i{
+    color: var(--clr-light-blue);
+}
+.marketing_card_text{
+    color: var(--clr-text);
+    font-size: 1.1em;
+    margin-bottom: .5em !important;
+}
+
+.marketing_card:hover{
+    background: var(--clr-light-blue);
+    transform: translateY(-8px);
+}
+.marketing_card:hover .marketing_card_text,
+.marketing_card:hover .marketing_card_head,
+.marketing_card:hover .marketing_card_head > i{
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .marketing_tools_container{
+        padding: 1em;
+    }
+    .marketing_card{
+        text-align: justify;
+    }
+}
